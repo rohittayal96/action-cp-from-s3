@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: rohittayal96/action-cp-from-s3@v1.0
+      - uses: rohittayal96/action-cp-from-s3@main
         env:
           AWS_S3_BUCKET: ${{ secrets.CHANGELOG_AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.CHANGELOG_AWS_ACCESS_KEY_ID }}
