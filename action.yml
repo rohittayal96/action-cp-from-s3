@@ -1,0 +1,9 @@
+name: "cp file from S3"
+description: "cp a file from an AWS S3 bucket"
+author: rohittayal96
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: hard-drive
+  color: green
